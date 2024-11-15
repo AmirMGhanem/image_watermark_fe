@@ -1,0 +1,64 @@
+/* Style for PhotoCard component */
+
+.photoCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease;
+}
+
+.photoCard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.photoImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.inputGroup {
+    margin-top: 12px;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.textInput,
+.textArea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.textArea {
+    resize: vertical;
+    height: 80px;
+}
+
+.analyzeButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.analyzeButton:hover {
+    background-color: #0056b3;
+}
+
+.analyzeButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
