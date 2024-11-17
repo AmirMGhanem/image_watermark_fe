@@ -62,3 +62,34 @@
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+
+.watermarkButton {
+    background-color: #4a6400;
+    color: rgb(178, 178, 178);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.watermarkButton:hover {
+    background-color: rgb(178, 178, 178);
+    color: #4a6400;
+    border: 1px solid #4a6400;
+}
+
+.watermarkButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
